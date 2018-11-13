@@ -1,15 +1,35 @@
 {
   "name": "vue-resize-text",
   "version": "0.1.0",
-  "private": true,
+  "description": "Vue Resize Text makes font auto resizing on responsive layout",
+  "author": "JayeshLab <helloiamjayesh@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "text",
+    "resize",
+    "font",
+    "responsive",
+    "fit",
+    "rescale",
+    "vue",
+    "vue.js"
+  ],
+  "main": "dist/vue-resize-text.common.js",
+  "unpkg": "dist/vue-resize-text.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build:docs": "vue-cli-service build --dest docs --name vue-resize-text src/main.js",
     "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vue-resize-text src/index.js",
     "test:unit": "vue-cli-service test:unit"
   },
-  "dependencies": {
-    "vue": "^2.5.17"
+  "homepage": "https://github.com/JayeshLab/vue-resize-text/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayeshLab/vue-resize-text.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JayeshLab/vue-resize-text/issues"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.2",
@@ -22,6 +42,13 @@
     "babel-jest": "^23.6.0",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
-    "vue-template-compiler": "^2.5.17"
-  }
+    "vue-template-compiler": "^2.5.17",
+    "vue": "^2.5.17"
+  },
+  "files": [
+    "dist/**",
+    "src/*",
+    "*.json",
+    "*.js"
+  ]
 }
