@@ -4,7 +4,15 @@ A vue directive which automatically resize font size based on element width.
 
 It makes the font-size flexible on fluid or responsive layout.
 
-[Live Demo](https://jayeshlab.github.io/vue-resize-text/): Resize the browser viewport to see the effect in action
+
+[![npm](https://img.shields.io/npm/v/vue-resize-text.svg?style=flat-square)](https://www.npmjs.com/package/vue-resize-text)
+[![npm](https://img.shields.io/npm/dt/vue-resize-text.svg?style=flat-square)](https://www.npmjs.com/package/vue-resize-text)
+[![Build Status](https://travis-ci.org/JayeshLab/vue-resize-text.svg?branch=master)](https://travis-ci.org/JayeshLab/vue-resize-text)
+[![npm](https://img.shields.io/npm/l/vue-resize-text.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+
+[Live Demo](https://jayeshlab.github.io/vue-resize-text/index.html): Resize the browser viewport to see the effect in action
+
+![vue-resize-text](https://user-images.githubusercontent.com/36194663/48419503-21935780-e77e-11e8-8a2f-6a1c9e33f740.gif)
 
 ## Installation
 

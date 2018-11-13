@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+      <a href="https://github.com/JayeshLab/vue-resize-text"><img src="https://aral.github.com/fork-me-on-github-retina-ribbons/right-graphite@2x.png" alt="Fork me on GitHub" style="position: absolute; top: 0px; right: 0px; border: 0px; width: 149px; height: 149px;"></a>
       <div class="container" v-resize-text>
           <h1><b><span style="color:#3eaf7c">vue-resize-text</span></b></h1>
           <h6> A vue directive which automatically resize font size based on element width.</h6>
@@ -11,11 +12,7 @@
       <br>
       <hr>
       <div v-resize-text="{minFontSize: '50px', maxFontSize: '100px'}">Hello Vue</div>
-      <pre><code>
-          &lt;div v-resize-text="{minFontSize: '50px', maxFontSize: '100px'}"&gt;
-          Hello Vue
-          &lt;/div&gt;
-      </code></pre>
+<pre><code>&lt;div v-resize-text="{minFontSize: '50px', maxFontSize: '100px'}"&gt;Hello Vue&lt;/div&gt;</code></pre>
       <br>
       <hr>
       <div v-resize-text="{ratio: 1.5, delay: 500}">Hello Vue</div>
