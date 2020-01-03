@@ -40,12 +40,16 @@ export default {
     };
     el.__ctx = ctx;
     el.__debounceHandler = debounce(function () {__onResize(el)}, ctx.delay);
-    window.addEventListener("resize", el.__debounceHandler , { passive: true });
+    if (typeof window !== 'undefined') {
+      window.addEventListener("resize", el.__debounceHandler , { passive: true });
+    }
     __onResize(el);
   },
   unbind(el) {
-    window.removeEventListener("resize", el.__debounceHandler, {
-      passive: true
-    });
+    if (typeof window !== 'undefined') {
+      window.removeEventListener("resize", el.__debounceHandler, {
+        passive: true
+      });
+    }
   }
 };
