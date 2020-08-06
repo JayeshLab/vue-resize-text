@@ -45,6 +45,8 @@ export default {
     }
     __onResize(el);
   },
+  update: __onResize,
+  componentUpdated: __onResize,
   unbind(el) {
     if (typeof window !== 'undefined') {
       window.removeEventListener("resize", el.__debounceHandler, {
