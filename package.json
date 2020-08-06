@@ -3,7 +3,39 @@
   "version": "0.1.1",
   "description": "Vue Resize Text makes font auto resizing on responsive layout",
   "author": "JayeshLab <helloiamjayesh@gmail.com>",
-  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint",
+    "build:docs": "vue-cli-service build --dest docs --name vue-resize-text src/main.js",
+    "lib": "vue-cli-service build --target lib --name vue-resize-text src/index.js"
+  },
+  "main": "dist/vue-resize-text.common.js",
+  "unpkg": "dist/vue-resize-text.umd.min.js",
+  "files": [
+    "dist/**",
+    "src/*",
+    "*.json",
+    "*.js"
+  ],
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.4.6",
+    "@vue/cli-plugin-eslint": "^4.4.6",
+    "@vue/cli-plugin-unit-jest": "^4.4.6",
+    "@vue/cli-service": "^4.4.6",
+    "@vue/test-utils": "^1.0.3",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.2.2",
+    "core-js": "^3.6.5",
+    "eslint": "^7.6.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "bugs": {
+    "url": "https://github.com/JayeshLab/vue-resize-text/issues"
+  },
+  "homepage": "https://github.com/JayeshLab/vue-resize-text/#readme",
   "keywords": [
     "text",
     "resize",
@@ -14,40 +46,9 @@
     "vue",
     "vue.js"
   ],
-  "main": "dist/vue-resize-text.common.js",
-  "unpkg": "dist/vue-resize-text.umd.min.js",
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build:docs": "vue-cli-service build --dest docs --name vue-resize-text src/main.js",
-    "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name vue-resize-text src/index.js",
-    "test:unit": "vue-cli-service test:unit"
-  },
-  "homepage": "https://github.com/JayeshLab/vue-resize-text/#readme",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JayeshLab/vue-resize-text.git"
-  },
-  "bugs": {
-    "url": "https://github.com/JayeshLab/vue-resize-text/issues"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.4.6",
-    "@vue/cli-plugin-eslint": "^4.4.6",
-    "@vue/cli-plugin-unit-jest": "^4.4.6",
-    "@vue/cli-service": "^4.4.6",
-    "babel-eslint": "^10.1.0",
-    "babel-jest": "^26.2.2",
-    "core-js": "^3.6.5",
-    "eslint": "^7.6.0",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue": "^2.6.11",
-    "vue-template-compiler": "^2.6.11"
-  },
-  "files": [
-    "dist/**",
-    "src/*",
-    "*.json",
-    "*.js"
-  ]
+  }
 }
