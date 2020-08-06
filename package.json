@@ -32,18 +32,17 @@
     "url": "https://github.com/JayeshLab/vue-resize-text/issues"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.0.0",
-    "@vue/cli-plugin-eslint": "^4.0.0",
-    "@vue/cli-plugin-unit-jest": "^4.0.0",
-    "@vue/cli-service": "^4.0.0",
-    "@vue/test-utils": "^1.0.0-beta.20",
-    "babel-eslint": "^10.0.3",
-    "babel-jest": "^23.0.1",
-    "eslint": "^5.16.0",
-    "eslint-plugin-vue": "^5.0.0-0",
-    "vue": "^2.6.10",
-    "vue-template-compiler": "^2.6.10",
-    "core-js": "^3.3.2"
+    "@vue/cli-plugin-babel": "^4.4.6",
+    "@vue/cli-plugin-eslint": "^4.4.6",
+    "@vue/cli-plugin-unit-jest": "^4.4.6",
+    "@vue/cli-service": "^4.4.6",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.2.2",
+    "core-js": "^3.6.5",
+    "eslint": "^7.6.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
   },
   "files": [
     "dist/**",
