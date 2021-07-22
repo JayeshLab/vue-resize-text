@@ -12,6 +12,8 @@ It makes the font-size flexible on fluid or responsive layout.
 
 [Live Demo](https://jayeshlab.github.io/vue-resize-text/index.html): Resize the browser viewport to see the effect in action
 
+For Vue.js 3.x see the [vue3-resize-text](https://github.com/JayeshLab/vue3-resize-text "vue3-resize-text")
+
 ![vue-resize-text](https://user-images.githubusercontent.com/36194663/48419503-21935780-e77e-11e8-8a2f-6a1c9e33f740.gif)
 
 ## Installation
