@@ -32,7 +32,7 @@ const defaultOption = {
   maxFontSize: "500px"
 };
 export default {
-  inserted(el, binding) {
+  mounted(el, binding) {
     const option = binding.value;
     const ctx = {
       ...defaultOption,
@@ -45,7 +45,7 @@ export default {
     }
     __onResize(el);
   },
-  unbind(el) {
+  unmounted(el) {
     if (typeof window !== 'undefined') {
       window.removeEventListener("resize", el.__debounceHandler, {
         passive: true
