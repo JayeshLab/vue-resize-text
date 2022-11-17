@@ -34,7 +34,7 @@ Install via CDN
 Register VueResizeText globally:
 
 ```javascript
-import Vue from 'Vue';
+import Vue from 'vue';
 import VueResizeText from 'vue-resize-text';
 
 Vue.use(VueResizeText)
